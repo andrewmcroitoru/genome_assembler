@@ -1,6 +1,6 @@
 # Assembling sequences
 
-For this assignment, we are going to implement two components of an overlap-layout-consensus assembler.
+For this assignment, we are going to implement a component of an overlap-layout-consensus assembler.
 
 ## Simplify overlap graph by iteratively removing transitively-inferrible edges
 
@@ -22,7 +22,7 @@ python3 test_remove_transitive_edges
 
 ## Implement the shortest common superstring
 
-For the second part of the assignment, implement the  `calculate_scs` function in `shortest_common_superstring.py`. The function takes in a list of sequences and returns the shortest string that has all the input sequences as subsequences.
+This part of the assignment is optional. For this section, implement the  `calculate_scs` function in `shortest_common_superstring.py`. The function takes in a list of sequences and returns the shortest string that has all the input sequences as subsequences.
 
 For example if the input is ['ABC', 'BCD'] then the expected output is 'ABCD'. Some simple tests to check the expected functionality are implemented in `test_shortest_common_superstring`. You should test your work by running:
 
